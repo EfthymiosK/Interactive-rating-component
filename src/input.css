@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+    --font-Overpass: "Overpass", sans-serif;
+  }
