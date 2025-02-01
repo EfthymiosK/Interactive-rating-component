@@ -10,13 +10,6 @@ buttons.forEach(button => {
     {
         choice = button.dataset["grade"];
         submitBtn.classList.remove("pointer-events-none");
-        console.log("choice is " + choice);
-        buttons.forEach(button => {
-            button.style.backgroundColor = "#364153";
-            button.style.color = "white";
-        })
-        button.style.backgroundColor = "white";
-        button.style.color = "#1e2939";
     })
 })
 
